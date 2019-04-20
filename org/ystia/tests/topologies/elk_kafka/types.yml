@@ -57,7 +57,7 @@ topology_template:
             node: Compute
     Kafka:
       type: org.ystia.kafka.linux.bash.nodes.Kafka
-      properties:
+      # properties:
       requirements:
         - host:
             node: Java

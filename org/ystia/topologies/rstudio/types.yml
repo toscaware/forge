@@ -70,7 +70,7 @@ topology_template:
             node: BlockStorage
     RStudio:
       type: org.ystia.rstudio.linux.bash.nodes.RStudio
-      properties:
+#      properties:
       requirements:
         - host:
             node: Java
